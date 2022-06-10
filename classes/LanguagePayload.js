@@ -3,14 +3,12 @@
 const SET_LANG_ENDPOINT = "SetLanguage";
 
 class LanguagePayload {
-
     /**
      * @param {string} lang
      */
     constructor(lang) {
         this.Language = lang;
     }
-
     Language;
 }
 

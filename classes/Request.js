@@ -9,7 +9,6 @@ module.exports = class Request {
         this.endPoint = endPoint;
         this.payload = payload;
     }
-
     endPoint;
     payload;
 }
